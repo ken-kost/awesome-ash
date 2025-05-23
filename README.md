@@ -5,15 +5,15 @@ A comprehensive list of awesome Ash libraries, DSLs and shiny things inspired by
 ## Libraries
  - [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) - A declarative, resource-based framework for building Elixir applications.
  - [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) - A postgres data layer for Ash Framework.
- - [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql) - GraphQL extensions for Ash.
- - [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) - JSON:API support for Ash Framework resources.
+ - [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql) - The extension for building GraphQL APIs with Ash.
+ - [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) - The JSON:API support for Ash Framework resources.
  - [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) [![git](git.png)](https://github.com/ash-project/ash_phoenix) [![hex](hex.png)](https://hex.pm/packages/ash_phoenix) - Utilities for using Ash with Phoenix.
- - [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git](git.png)](https://github.com/ash-project/ash_authentication) [![hex](hex.png)](https://hex.pm/packages/ash_authentication) - A drop-in authentication solution for Ash.
- - [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git](git.png)](https://github.com/ash-project/ash_admin) [![hex](hex.png)](https://hex.pm/packages/ash_admin) - An auto-generated admin UI for Ash.
+ - [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git](git.png)](https://github.com/ash-project/ash_authentication) [![hex](hex.png)](https://hex.pm/packages/ash_authentication) - Authentication extension for the Ash Framework.
+ - [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git](git.png)](https://github.com/ash-project/ash_admin) [![hex](hex.png)](https://hex.pm/packages/ash_admin) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
  - [AshCsv](https://hexdocs.pm/ash_csv/readme.html) [![git](git.png)](https://github.com/ash-project/ash_csv) [![hex](hex.png)](https://hex.pm/packages/ash_csv) - A CSV data layer for Ash Framework.
- - [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git](git.png)](https://github.com/ash-project/ash_state_machine) [![hex](hex.png)](https://hex.pm/packages/ash_state_machine) - State machine behavior for Ash resources.
+ - [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git](git.png)](https://github.com/ash-project/ash_state_machine) [![hex](hex.png)](https://hex.pm/packages/ash_state_machine) - The extension for building state machines with Ash resources.
  - [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) [![git](git.png)](https://github.com/ash-project/ash_sqlite) [![hex](hex.png)](https://hex.pm/packages/ash_sqlite) - An SQLite data layer for Ash Framework.
- - [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git](git.png)](https://github.com/ash-project/ash_oban) [![hex](hex.png)](https://hex.pm/packages/ash_oban) - Oban integration for Ash Framework.
+ - [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git](git.png)](https://github.com/ash-project/ash_oban) [![hex](hex.png)](https://hex.pm/packages/ash_oban) - The extension for integrating Ash resources with Oban.
 
 ## DSL
 
