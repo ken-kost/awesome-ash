@@ -3,8 +3,8 @@ A comprehensive list of awesome Ash Domain Specific Languages (DSL) inspired by 
 
 
 - [Ash](#awesome-ash--) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) 
-  - [Ash.Resource](#ash.resource)
-  - [Ash.Domain](#ash.domain)
+  - [Ash.Resource](#ashresource)
+  - [Ash.Domain](#ashdomain)
 
 ## [Ash.Resource](https://hexdocs.pm/ash/dsl-ash-resource.html)
 * [attributes](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes) - A section for declaring attributes on the resource.
