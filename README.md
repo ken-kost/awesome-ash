@@ -3,7 +3,8 @@ A comprehensive list of awesome Ash libraries, DSLs and shiny things inspired by
 
 
 ## Libraries
- - [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) 
+ - [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash)
+  - [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) 
 
 ## DSL
 
