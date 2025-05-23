@@ -2,7 +2,12 @@
 A comprehensive list of awesome Ash libraries, DSLs and shiny things inspired by [awesome-elixir](https://github.com/h4cc/awesome-elixir).
 
 
-- [Ash](#awesome-ash--) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) 
+## Libraries
+ - [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) 
+
+## DSL
+
+- [Ash](#awesome-ash--)
   - [Ash.Resource](#ashresource)
   - [Ash.Domain](#ashdomain)
 
