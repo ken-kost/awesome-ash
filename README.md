@@ -1,3 +1,4 @@
+![Cool Ashley](cool-ashley.png)
 # Awesome Ash [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A comprehensive list of awesome Ash libraries, DSLs and shiny things inspired by [awesome-elixir](https://github.com/h4cc/awesome-elixir).
 
