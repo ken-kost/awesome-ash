@@ -4,29 +4,29 @@ A comprehensive list of awesome Ash libraries, DSLs and shiny things inspired by
 
 
 ## Libraries
- - [Ash](#ash) - A declarative, resource-based framework for building Elixir applications.
- - [AshPostgres](#ashpostgres) - A postgres data layer for Ash Framework.
- - [AshGraphql](#ashgraphql) - The extension for building GraphQL APIs with Ash.
- - [AshJsonApi](#ashjsonapi) - The JSON:API support for Ash Framework resources.
- - [AshAi](#ashai) - Structured outputs, vectorization and tool calling for your Ash application.
- - [AshPhoenix](#ashphoenix) - Utilities for using Ash with Phoenix.
- - [AshAuthentication](#ashauthentication) - Authentication extension for the Ash Framework.
- - [AshAdmin](#ashadmin) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
- - [AshPaperTrail](#ashpapertrail) - The extension for keeping an audit log of changes to your Ash resources.
- - [AshOban](#ashoban) - The extension for integrating Ash resources with Oban.
- - [AshEvents](#ashevents) - An event-architecture extension for Ash.
- - [AshStateMachine](#ashstatemachine) - The extension for building state machines with Ash resources.
- - [AshArchival](#asharchival) - An Ash extension to implement archival (soft deletion) for resources.
- - [AshCloak](#ashcloak) - An Ash extension to seamlessly encrypt and decrypt resource attributes.
- - [AshSqlite](#ashsqlite) - An SQLite data layer for Ash Framework.
- - [AshSync](#ashsync) - Real-time sync for Postgres-backed Ash & Phoenix applications.
- - [AshDoubleEntry](#ashdoubleentry) - A customizable double entry bookkeeping system backed by Ash resources.
- - [AshCsv](#ashcsv) - A CSV data layer for Ash Framework.
- - [OpentelemetryAsh](#opentelemetryash) - The Open Telemetry integration for Ash Framework.
- - [AshBlog](#ashblog) - A Blog data layer backed by markdown files.
- - [AshMoney](#ashmoney) - The extension for working with money types in Ash.
- - [AshAppsignal](#ashappsignal) - The AppSignal APM integration for Ash Framework.
- - [AshOps](#ashops) - An Ash extension which generates mix tasks for actions.
+ - [Ash](#ash--) - A declarative, resource-based framework for building Elixir applications.
+ - [AshPostgres](#ashpostgres--) - A postgres data layer for Ash Framework.
+ - [AshGraphql](#ashgraphql--) - The extension for building GraphQL APIs with Ash.
+ - [AshJsonApi](#ashjsonapi--) - The JSON:API support for Ash Framework resources.
+ - [AshAi](#ashai--) - Structured outputs, vectorization and tool calling for your Ash application.
+ - [AshPhoenix](#ashphoenix--) - Utilities for using Ash with Phoenix.
+ - [AshAuthentication](#ashauthentication--) - Authentication extension for the Ash Framework.
+ - [AshAdmin](#ashadmin--) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
+ - [AshPaperTrail](#ashpapertrail--) - The extension for keeping an audit log of changes to your Ash resources.
+ - [AshOban](#ashoban--) - The extension for integrating Ash resources with Oban.
+ - [AshEvents](#ashevents--) - An event-architecture extension for Ash.
+ - [AshStateMachine](#ashstatemachine--) - The extension for building state machines with Ash resources.
+ - [AshArchival](#asharchival--) - An Ash extension to implement archival (soft deletion) for resources.
+ - [AshCloak](#ashcloak--) - An Ash extension to seamlessly encrypt and decrypt resource attributes.
+ - [AshSqlite](#ashsqlite--) - An SQLite data layer for Ash Framework.
+ - [AshSync](#ashsync--) - Real-time sync for Postgres-backed Ash & Phoenix applications.
+ - [AshDoubleEntry](#ashdoubleentry--) - A customizable double entry bookkeeping system backed by Ash resources.
+ - [AshCsv](#ashcsv--) - A CSV data layer for Ash Framework.
+ - [OpentelemetryAsh](#opentelemetryash--) - The Open Telemetry integration for Ash Framework.
+ - [AshBlog](#ashblog--) - A Blog data layer backed by markdown files.
+ - [AshMoney](#ashmoney--) - The extension for working with money types in Ash.
+ - [AshAppsignal](#ashappsignal--) - The AppSignal APM integration for Ash Framework.
+ - [AshOps](#ashops--) - An Ash extension which generates mix tasks for actions.
 
 ## [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash)
 
