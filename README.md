@@ -98,6 +98,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
 * [authorization](https://hexdocs.pm/ash/dsl-ash-domain.html#authorization) - Options for how requests are authorized using this domain.
 
 ### Resources
+* [Get Started](https://hexdocs.pm/ash/get-started.html)
 * [From Simple to Sophisticated](https://hexdocs.pm/ash/what-is-ash.html#an-example-from-simple-to-sophisticated)
 
 ## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_postgres)
