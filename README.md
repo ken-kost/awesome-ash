@@ -182,6 +182,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
 ### DSL
 
 ### Resources
+* [Sending Emails with Ash Framework](https://www.zachdaniel.dev/p/sending-emails-with-ash)
 
 
 ## [AshEvents](https://hexdocs.pm/ash_events/readme.html) [![git](git.png)](https://github.com/ash-project/ash_events) [![hex](hex.png)](https://hex.pm/packages/ash_events) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_events)
