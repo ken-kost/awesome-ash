@@ -88,7 +88,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
 
 * [multitenancy](https://hexdocs.pm/ash/dsl-ash-resource.html#multitenancy) - Configure multitenancy behavior
 
-### [Ash.Domain](https://hexdocs.pm/ash/dsl-ash-domain.html)
+#### [Ash.Domain](https://hexdocs.pm/ash/dsl-ash-domain.html)
 * [domain](https://hexdocs.pm/ash/dsl-ash-domain.html#domain) - General domain configuration.
 * [resources](https://hexdocs.pm/ash/dsl-ash-domain.html#resources) - List the resources of this domain.
   * [resource](https://hexdocs.pm/ash/dsl-ash-domain.html#resources-resource) - A resource present in the domain.
@@ -103,7 +103,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
 ## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_postgres)
 
 ### DSL
-### [AshPostgres.DataLayer](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html)
+#### [AshPostgres.DataLayer](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html)
 * [postgres](https://hexdocs.pm/ash/dsl-ash-resource.html#postgres) - Postgres data layer configuration.
   * [custom_indexes](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-custom_indexes) - A section for configuring indexes to be created by the migration generator.
   * [custom_statements](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-custom_statements) - A section for configuring custom statements to be added to migrations.
@@ -119,8 +119,21 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
 ## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_graphql)
 
 ### DSL
+#### [AshGraphql.Domain](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html)
+* [graphql](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql) - Domain level configuration for GraphQL.
+  * [queries](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-queries) - Queries to expose for the resource.
+  * [mutations](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-mutations) - Mutations (create/update/destroy actions) to expose for the resource.
+  * [subscriptions](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-subscriptions) - Subscriptions to expose for the resource.
+
+#### [AshGraphql.Resource](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html)
+* [graphql](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql) - Configuration for a given resource in graphql.
+  * [queries](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-queries) - Queries (read actions) to expose for the resource.
+  * [mutations](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-mutations) - Mutations (create/update/destroy actions) to expose for the resource.
+  * [subscriptions](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-subscriptions) - Subscriptions (notifications) to expose for the resource.
+  * [managed_relationships](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-managed_relationships) - Generates input objects for `manage_relationship` arguments on resource actions.
 
 ### Resources
+* [Getting Started With GraphQL](https://hexdocs.pm/ash_graphql/getting-started-with-graphql.html)
 
 ## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_json_api)
 
