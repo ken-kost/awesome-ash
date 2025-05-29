@@ -4,31 +4,31 @@ A comprehensive list of awesome Ash libraries, DSLs, Tutorials and Examples.
 
 
 ## Libraries
- - [Ash](#ash--) - A declarative, resource-based framework for building Elixir applications.
- - [AshPostgres](#ashpostgres--) - A postgres data layer for Ash Framework.
- - [AshGraphql](#ashgraphql--) - The extension for building GraphQL APIs with Ash.
- - [AshJsonApi](#ashjsonapi--) - The JSON:API support for Ash Framework resources.
- - [AshAi](#ashai--) - Structured outputs, vectorization and tool calling for your Ash application.
- - [AshPhoenix](#ashphoenix--) - Utilities for using Ash with Phoenix.
- - [AshAuthentication](#ashauthentication--) - Authentication extension for the Ash Framework.
- - [AshAdmin](#ashadmin--) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
- - [AshPaperTrail](#ashpapertrail--) - The extension for keeping an audit log of changes to your Ash resources.
- - [AshOban](#ashoban--) - The extension for integrating Ash resources with Oban.
- - [AshEvents](#ashevents--) - An event-architecture extension for Ash.
- - [AshStateMachine](#ashstatemachine--) - The extension for building state machines with Ash resources.
- - [AshArchival](#asharchival--) - An Ash extension to implement archival (soft deletion) for resources.
- - [AshCloak](#ashcloak--) - An Ash extension to seamlessly encrypt and decrypt resource attributes.
- - [AshSqlite](#ashsqlite--) - An SQLite data layer for Ash Framework.
- - [AshSync](#ashsync--) - Real-time sync for Postgres-backed Ash & Phoenix applications.
- - [AshDoubleEntry](#ashdoubleentry--) - A customizable double entry bookkeeping system backed by Ash resources.
- - [AshCsv](#ashcsv--) - A CSV data layer for Ash Framework.
- - [OpentelemetryAsh](#opentelemetryash--) - The Open Telemetry integration for Ash Framework.
- - [AshBlog](#ashblog--) - A Blog data layer backed by markdown files.
- - [AshMoney](#ashmoney--) - The extension for working with money types in Ash.
- - [AshAppsignal](#ashappsignal--) - The AppSignal APM integration for Ash Framework.
- - [AshOps](#ashops--) - An Ash extension which generates mix tasks for actions.
+ - [Ash](#ash---) - A declarative, resource-based framework for building Elixir applications.
+ - [AshPostgres](#ashpostgres---) - A postgres data layer for Ash Framework.
+ - [AshGraphql](#ashgraphql---) - The extension for building GraphQL APIs with Ash.
+ - [AshJsonApi](#ashjsonapi---) - The JSON:API support for Ash Framework resources.
+ - [AshAi](#ashai---) - Structured outputs, vectorization and tool calling for your Ash application.
+ - [AshPhoenix](#ashphoenix---) - Utilities for using Ash with Phoenix.
+ - [AshAuthentication](#ashauthentication---) - Authentication extension for the Ash Framework.
+ - [AshAdmin](#ashadmin---) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
+ - [AshPaperTrail](#ashpapertrail---) - The extension for keeping an audit log of changes to your Ash resources.
+ - [AshOban](#ashoban---) - The extension for integrating Ash resources with Oban.
+ - [AshEvents](#ashevents---) - An event-architecture extension for Ash.
+ - [AshStateMachine](#ashstatemachine---) - The extension for building state machines with Ash resources.
+ - [AshArchival](#asharchival---) - An Ash extension to implement archival (soft deletion) for resources.
+ - [AshCloak](#ashcloak---) - An Ash extension to seamlessly encrypt and decrypt resource attributes.
+ - [AshSqlite](#ashsqlite---) - An SQLite data layer for Ash Framework.
+ - [AshSync](#ashsync---) - Real-time sync for Postgres-backed Ash & Phoenix applications.
+ - [AshDoubleEntry](#ashdoubleentry---) - A customizable double entry bookkeeping system backed by Ash resources.
+ - [AshCsv](#ashcsv---) - A CSV data layer for Ash Framework.
+ - [OpentelemetryAsh](#opentelemetryash---) - The Open Telemetry integration for Ash Framework.
+ - [AshBlog](#ashblog---) - A Blog data layer backed by markdown files.
+ - [AshMoney](#ashmoney---) - The extension for working with money types in Ash.
+ - [AshAppsignal](#ashappsignal---) - The AppSignal APM integration for Ash Framework.
+ - [AshOps](#ashops---) - An Ash extension which generates mix tasks for actions.
 
-## [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash)
+## [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash)
 
 ### DSL
 #### [Ash.Resource](https://hexdocs.pm/ash/dsl-ash-resource.html)
@@ -101,7 +101,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Tutorials and Examples.
 
 ### Examples
 
-## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres)
+## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_postgres)
 
 ### DSL
 To be added...
@@ -112,7 +112,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql)
+## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_graphql)
 
 ### DSL
 To be added...
@@ -123,7 +123,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api)
+## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_json_api)
 
 ### DSL
 To be added...
@@ -134,7 +134,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshAi](https://hexdocs.pm/ash_ai/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ai) [![hex](hex.png)](https://hex.pm/packages/ash_ai)
+## [AshAi](https://hexdocs.pm/ash_ai/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ai) [![hex](hex.png)](https://hex.pm/packages/ash_ai) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_ai)
 
 ### DSL
 To be added...
@@ -145,7 +145,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) [![git](git.png)](https://github.com/ash-project/ash_phoenix) [![hex](hex.png)](https://hex.pm/packages/ash_phoenix)
+## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) [![git](git.png)](https://github.com/ash-project/ash_phoenix) [![hex](hex.png)](https://hex.pm/packages/ash_phoenix) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_phoenix)
 
 ### DSL
 To be added...
@@ -156,7 +156,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git](git.png)](https://github.com/ash-project/ash_authentication) [![hex](hex.png)](https://hex.pm/packages/ash_authentication)
+## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git](git.png)](https://github.com/ash-project/ash_authentication) [![hex](hex.png)](https://hex.pm/packages/ash_authentication) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_authentication)
 
 ### DSL
 To be added...
@@ -167,7 +167,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git](git.png)](https://github.com/ash-project/ash_admin) [![hex](hex.png)](https://hex.pm/packages/ash_admin)
+## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git](git.png)](https://github.com/ash-project/ash_admin) [![hex](hex.png)](https://hex.pm/packages/ash_admin) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_admin)
 
 ### DSL
 To be added...
@@ -178,7 +178,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html) [![git](git.png)](https://github.com/ash-project/ash_paper_trail) [![hex](hex.png)](https://hex.pm/packages/ash_paper_trail)
+## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html) [![git](git.png)](https://github.com/ash-project/ash_paper_trail) [![hex](hex.png)](https://hex.pm/packages/ash_paper_trail) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_paper_trail)
 
 ### DSL
 To be added...
@@ -189,7 +189,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git](git.png)](https://github.com/ash-project/ash_oban) [![hex](hex.png)](https://hex.pm/packages/ash_oban)
+## [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git](git.png)](https://github.com/ash-project/ash_oban) [![hex](hex.png)](https://hex.pm/packages/ash_oban) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_oban)
 
 ### DSL
 To be added...
@@ -200,7 +200,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshEvents](https://hexdocs.pm/ash_events/readme.html) [![git](git.png)](https://github.com/ash-project/ash_events) [![hex](hex.png)](https://hex.pm/packages/ash_events)
+## [AshEvents](https://hexdocs.pm/ash_events/readme.html) [![git](git.png)](https://github.com/ash-project/ash_events) [![hex](hex.png)](https://hex.pm/packages/ash_events) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_events)
 
 ### DSL
 To be added...
@@ -211,7 +211,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git](git.png)](https://github.com/ash-project/ash_state_machine) [![hex](hex.png)](https://hex.pm/packages/ash_state_machine)
+## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git](git.png)](https://github.com/ash-project/ash_state_machine) [![hex](hex.png)](https://hex.pm/packages/ash_state_machine) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_state_machine)
 
 ### DSL
 To be added...
@@ -222,7 +222,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshArchival](https://hexdocs.pm/ash_archival/readme.html) [![git](git.png)](https://github.com/ash-project/ash_archival) [![hex](hex.png)](https://hex.pm/packages/ash_archival)
+## [AshArchival](https://hexdocs.pm/ash_archival/readme.html) [![git](git.png)](https://github.com/ash-project/ash_archival) [![hex](hex.png)](https://hex.pm/packages/ash_archival) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_archival)
 
 ### DSL
 To be added...
@@ -233,7 +233,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html) [![git](git.png)](https://github.com/ash-project/ash_cloak) [![hex](hex.png)](https://hex.pm/packages/ash_cloak)
+## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html) [![git](git.png)](https://github.com/ash-project/ash_cloak) [![hex](hex.png)](https://hex.pm/packages/ash_cloak) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_cloak)
 
 ### DSL
 To be added...
@@ -244,7 +244,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) [![git](git.png)](https://github.com/ash-project/ash_sqlite) [![hex](hex.png)](https://hex.pm/packages/ash_sqlite)
+## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) [![git](git.png)](https://github.com/ash-project/ash_sqlite) [![hex](hex.png)](https://hex.pm/packages/ash_sqlite) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_sqlite)
 
 ### DSL
 To be added...
@@ -266,7 +266,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html) [![git](git.png)](https://github.com/ash-project/ash_double_entry) [![hex](hex.png)](https://hex.pm/packages/ash_double_entry)
+## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html) [![git](git.png)](https://github.com/ash-project/ash_double_entry) [![hex](hex.png)](https://hex.pm/packages/ash_double_entry) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_double_entry)
 
 ### DSL
 To be added...
@@ -277,7 +277,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshCsv](https://hexdocs.pm/ash_csv/readme.html) [![git](git.png)](https://github.com/ash-project/ash_csv) [![hex](hex.png)](https://hex.pm/packages/ash_csv)
+## [AshCsv](https://hexdocs.pm/ash_csv/readme.html) [![git](git.png)](https://github.com/ash-project/ash_csv) [![hex](hex.png)](https://hex.pm/packages/ash_csv) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_csv)
 
 ### DSL
 To be added...
@@ -288,7 +288,7 @@ To be added...
 ### Examples
 To be added...
 
-## [OpentelemetryAsh](https://hexdocs.pm/opentelemetry_ash/readme.html) [![git](git.png)](https://github.com/ash-project/opentelemetry_ash) [![hex](hex.png)](https://hex.pm/packages/opentelemetry_ash)
+## [OpentelemetryAsh](https://hexdocs.pm/opentelemetry_ash/readme.html) [![git](git.png)](https://github.com/ash-project/opentelemetry_ash) [![hex](hex.png)](https://hex.pm/packages/opentelemetry_ash) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/opentelemetry_ash)
 
 ### DSL
 To be added...
@@ -310,7 +310,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshMoney](https://hexdocs.pm/ash_money/readme.html) [![git](git.png)](https://github.com/ash-project/ash_money) [![hex](hex.png)](https://hex.pm/packages/ash_money)
+## [AshMoney](https://hexdocs.pm/ash_money/readme.html) [![git](git.png)](https://github.com/ash-project/ash_money) [![hex](hex.png)](https://hex.pm/packages/ash_money) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_money)
 
 ### DSL
 To be added...
@@ -321,7 +321,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshAppsignal](https://hexdocs.pm/ash_appsignal/readme.html) [![git](git.png)](https://github.com/ash-project/ash_appsignal) [![hex](hex.png)](https://hex.pm/packages/ash_appsignal)
+## [AshAppsignal](https://hexdocs.pm/ash_appsignal/readme.html) [![git](git.png)](https://github.com/ash-project/ash_appsignal) [![hex](hex.png)](https://hex.pm/packages/ash_appsignal) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_appsignal)
 
 ### DSL
 To be added...
@@ -332,7 +332,7 @@ To be added...
 ### Examples
 To be added...
 
-## [AshOps](https://hexdocs.pm/ash_ops/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ops) [![hex](hex.png)](https://hex.pm/packages/ash_ops)
+## [AshOps](https://hexdocs.pm/ash_ops/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ops) [![hex](hex.png)](https://hex.pm/packages/ash_ops) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_ops)
 
 ### DSL
 To be added...
