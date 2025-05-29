@@ -113,7 +113,7 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
   * [check_constraints](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-check_constraints) - A section for configuring the check constraints for a given table.
 
 ### Resources
-* [Get Started With Postgres](https://hexdocs.pm/ash_postgres/get-started-with-ash-postgres.html)
+* [Get Started](https://hexdocs.pm/ash_postgres/get-started-with-ash-postgres.html)
 * [Setting AshPostgres up with an existing database](https://hexdocs.pm/ash_postgres/set-up-with-existing-database.html)
 
 
@@ -134,14 +134,14 @@ A comprehensive list of awesome Ash libraries, DSLs, Resources and Examples.
   * [managed_relationships](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-managed_relationships) - Generates input objects for `manage_relationship` arguments on resource actions.
 
 ### Resources
-* [Getting Started With GraphQL](https://hexdocs.pm/ash_graphql/getting-started-with-graphql.html)
+* [Get Started](https://hexdocs.pm/ash_graphql/getting-started-with-graphql.html)
 
 ## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_json_api)
 
 ### DSL
 
 ### Resources
-
+* [Get Started](https://hexdocs.pm/ash_json_api/getting-started-with-ash-json-api.html)
 
 ## [AshAi](https://hexdocs.pm/ash_ai/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ai) [![hex](hex.png)](https://hex.pm/packages/ash_ai) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_ai)
 
