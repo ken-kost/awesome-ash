@@ -7,7 +7,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 ![Cool_Ashley_logo](cool-ashley.png)
 
 ## Contents
-- [Ash](#ash---) - A declarative, resource-based framework for building Elixir applications.
+- [Ash](#ash) - A declarative, resource-based framework for building Elixir applications.
 - [AshPostgres](#ashpostgres---) - A postgres data layer for Ash Framework.
 - [AshGraphql](#ashgraphql---) - The extension for building GraphQL APIs with Ash.
 - [AshJsonApi](#ashjsonapi---) - The JSON:API support for Ash Framework resources.
@@ -33,7 +33,8 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [Ash](https://hexdocs.pm/ash/readme.html) [![git](git.png)](https://github.com/ash-project/ash) [![hex](hex.png)](https://hex.pm/packages/ash) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash)
+## [Ash](https://hexdocs.pm/ash/readme.html) 
+[![git-hub](git.svg)](https://github.com/ash-project/ash) [![hex](hex.svg)](https://hex.pm/packages/ash) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash)
 
 ### DSL
 
@@ -111,7 +112,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 - [From Simple to Sophisticated](https://hexdocs.pm/ash/what-is-ash.html#an-example-from-simple-to-sophisticated)
 
-## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git](git.png)](https://github.com/ash-project/ash_postgres) [![hex](hex.png)](https://hex.pm/packages/ash_postgres) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_postgres)
+## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_postgres) [![hex](hex.svg)](https://hex.pm/packages/ash_postgres) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_postgres)
 
 ### DSL
 
@@ -132,7 +133,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git](git.png)](https://github.com/ash-project/ash_graphql) [![hex](hex.png)](https://hex.pm/packages/ash_graphql) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_graphql)
+## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_graphql) [![hex](hex.svg)](https://hex.pm/packages/ash_graphql) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_graphql)
 
 ### DSL
 
@@ -157,7 +158,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git](git.png)](https://github.com/ash-project/ash_json_api) [![hex](hex.png)](https://hex.pm/packages/ash_json_api) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_json_api)
+## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_json_api) [![hex](hex.svg)](https://hex.pm/packages/ash_json_api) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_json_api)
 
 ### DSL
 
@@ -173,7 +174,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 - [Get Started](https://hexdocs.pm/ash_json_api/getting-started-with-ash-json-api.html)
 
-## [AshAi](https://hexdocs.pm/ash_ai/readme.html) [![git](git.png)](https://github.com/ash-project/ash_ai) [![hex](hex.png)](https://hex.pm/packages/ash_ai) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_ai)
+## [AshAi](https://hexdocs.pm/ash_ai/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_ai) [![hex](hex.svg)](https://hex.pm/packages/ash_ai) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_ai)
 
 ### DSL
 
@@ -181,7 +182,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) [![git](git.png)](https://github.com/ash-project/ash_phoenix) [![hex](hex.png)](https://hex.pm/packages/ash_phoenix) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_phoenix)
+## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_phoenix) [![hex](hex.svg)](https://hex.pm/packages/ash_phoenix) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_phoenix)
 
 ### DSL
 
@@ -189,7 +190,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git](git.png)](https://github.com/ash-project/ash_authentication) [![hex](hex.png)](https://hex.pm/packages/ash_authentication) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_authentication)
+## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_authentication) [![hex](hex.svg)](https://hex.pm/packages/ash_authentication) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_authentication)
 
 ### DSL
 
@@ -197,7 +198,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git](git.png)](https://github.com/ash-project/ash_admin) [![hex](hex.png)](https://hex.pm/packages/ash_admin) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_admin)
+## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_admin) [![hex](hex.svg)](https://hex.pm/packages/ash_admin) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_admin)
 
 ### DSL
 
@@ -205,7 +206,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html) [![git](git.png)](https://github.com/ash-project/ash_paper_trail) [![hex](hex.png)](https://hex.pm/packages/ash_paper_trail) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_paper_trail)
+## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_paper_trail) [![hex](hex.svg)](https://hex.pm/packages/ash_paper_trail) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_paper_trail)
 
 ### DSL
 
@@ -213,7 +214,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git](git.png)](https://github.com/ash-project/ash_oban) [![hex](hex.png)](https://hex.pm/packages/ash_oban) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_oban)
+## [AshOban](https://hexdocs.pm/ash_oban/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_oban) [![hex](hex.svg)](https://hex.pm/packages/ash_oban) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_oban)
 
 ### DSL
 
@@ -222,7 +223,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshEvents](https://hexdocs.pm/ash_events/readme.html) [![git](git.png)](https://github.com/ash-project/ash_events) [![hex](hex.png)](https://hex.pm/packages/ash_events) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_events)
+## [AshEvents](https://hexdocs.pm/ash_events/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_events) [![hex](hex.svg)](https://hex.pm/packages/ash_events) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_events)
 
 ### DSL
 
@@ -230,7 +231,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git](git.png)](https://github.com/ash-project/ash_state_machine) [![hex](hex.png)](https://hex.pm/packages/ash_state_machine) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_state_machine)
+## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_state_machine) [![hex](hex.svg)](https://hex.pm/packages/ash_state_machine) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_state_machine)
 
 ### DSL
 
@@ -238,7 +239,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshArchival](https://hexdocs.pm/ash_archival/readme.html) [![git](git.png)](https://github.com/ash-project/ash_archival) [![hex](hex.png)](https://hex.pm/packages/ash_archival) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_archival)
+## [AshArchival](https://hexdocs.pm/ash_archival/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_archival) [![hex](hex.svg)](https://hex.pm/packages/ash_archival) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_archival)
 
 ### DSL
 
@@ -246,7 +247,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html) [![git](git.png)](https://github.com/ash-project/ash_cloak) [![hex](hex.png)](https://hex.pm/packages/ash_cloak) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_cloak)
+## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_cloak) [![hex](hex.svg)](https://hex.pm/packages/ash_cloak) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_cloak)
 
 ### DSL
 
@@ -254,7 +255,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) [![git](git.png)](https://github.com/ash-project/ash_sqlite) [![hex](hex.png)](https://hex.pm/packages/ash_sqlite) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_sqlite)
+## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_sqlite) [![hex](hex.svg)](https://hex.pm/packages/ash_sqlite) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_sqlite)
 
 ### DSL
 
@@ -262,7 +263,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshSync](https://hexdocs.pm/ash_sync/readme.html) [![git](git.png)](https://github.com/ash-project/ash_sync) [![hex](hex.png)](https://hex.pm/packages/ash_sync)
+## [AshSync](https://hexdocs.pm/ash_sync/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_sync) [![hex](hex.svg)](https://hex.pm/packages/ash_sync)
 
 ### DSL
 
@@ -270,7 +271,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html) [![git](git.png)](https://github.com/ash-project/ash_double_entry) [![hex](hex.png)](https://hex.pm/packages/ash_double_entry) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_double_entry)
+## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html) [![git-hub](git.svg)](https://github.com/ash-project/ash_double_entry) [![hex](hex.svg)](https://hex.pm/packages/ash_double_entry) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_double_entry)
 
 ### DSL
 
