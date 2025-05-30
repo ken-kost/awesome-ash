@@ -38,72 +38,72 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 ### DSL
 
 #### [Domain](https://hexdocs.pm/ash/dsl-ash-domain.html)
-- [domain](https://hexdocs.pm/ash/dsl-ash-domain.html#domain) - General domain configuration.
+- domain - General domain configuration.
 
-- [resources](https://hexdocs.pm/ash/dsl-ash-domain.html#resources) - List the resources of this domain.
-   - [resource](https://hexdocs.pm/ash/dsl-ash-domain.html#resources-resource) - A resource present in the domain.
-   - [define](https://hexdocs.pm/ash/dsl-ash-domain.html#resources-define) - Defines a function with the corresponding name and arguments.
-  - [define_calculation](https://hexdocs.pm/ash/dsl-ash-domain.html#resources-define_calculation) - Defines a function with the corresponding name and arguments, that evaluates a calculation.
+- resources - List the resources of this domain.
+   - resource - A resource present in the domain.
+   - define - Defines a function with the corresponding name and arguments.
+  - define_calculation - Defines a function with the corresponding name and arguments, that evaluates a calculation.
 
-- [execution](https://hexdocs.pm/ash/dsl-ash-domain.html#execution) - Options for how requests are executed using this domain.
+- execution - Options for how requests are executed using this domain.
 
-- [authorization](https://hexdocs.pm/ash/dsl-ash-domain.html#authorization) - Options for how requests are authorized using this domain.
+- authorization - Options for how requests are authorized using this domain.
 
 #### [Resource](https://hexdocs.pm/ash/dsl-ash-resource.html)
 
-- [attributes](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes) - A section for declaring attributes on the resource.
-  - [attribute](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-attribute) - Declares an attribute on the resource.
-  - [create_timestamp](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-create_timestamp) - Declares a non-writable attribute with a create default of `&DateTime.utc_now/0`.
-  - [update_timestamp](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-update_timestamp) - Declares a non-writable attribute with a create and update default of `&DateTime.utc_now/0`.
-  - [integer_primary_key](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-integer_primary_key) - Declares a generated, non writable, non-nil, primary key column of type integer.
-  - [uuid_primary_key](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-uuid_primary_key) - Declares a non writable, non-nil, primary key column of type `uuid`, which defaults to `Ash.UUID.generate/0`.
-  - [uuid_v7_primary_key](https://hexdocs.pm/ash/dsl-ash-resource.html#attributes-uuid_v7_primary_key) - Declares a non writable, non-nil, primary key column of type `uuid_v7`, which defaults to `Ash.UUIDv7.generate/0`.
-- [relationships](https://hexdocs.pm/ash/dsl-ash-resource.html#relationships) - A section for declaring relationships on the resource.
-  - [has_one](https://hexdocs.pm/ash/dsl-ash-resource.html#relationships-has_one) - Declares a `has_one` relationship. In a relational database, the foreign key would be on the *other* table.
-  - [has_many](https://hexdocs.pm/ash/dsl-ash-resource.html#relationships-has_many) - Declares a `has_many` relationship. There can be any number of related entities.
-  - [many_to_many](https://hexdocs.pm/ash/dsl-ash-resource.html#relationships-many_to_many) - Declares a `many_to_many` relationship. Many to many relationships require a join resource.
-  - [belongs_to](https://hexdocs.pm/ash/dsl-ash-resource.html#relationships-belongs_to) - Declares a `belongs_to` relationship. In a relational database, the foreign key would be on the *source* table.
+- attributes - A section for declaring attributes on the resource.
+  - attribute - Declares an attribute on the resource.
+  - create_timestamp - Declares a non-writable attribute with a create default of `&DateTime.utc_now/0`.
+  - update_timestamp - Declares a non-writable attribute with a create and update default of `&DateTime.utc_now/0`.
+  - integer_primary_key - Declares a generated, non writable, non-nil, primary key column of type integer.
+  - uuid_primary_key - Declares a non writable, non-nil, primary key column of type `uuid`, which defaults to `Ash.UUID.generate/0`.
+  - uuid_v7_primary_key - Declares a non writable, non-nil, primary key column of type `uuid_v7`, which defaults to `Ash.UUIDv7.generate/0`.
+- relationships - A section for declaring relationships on the resource.
+  - has_one - Declares a `has_one` relationship. In a relational database, the foreign key would be on the *other* table.
+  - has_many - Declares a `has_many` relationship. There can be any number of related entities.
+  - many_to_many - Declares a `many_to_many` relationship. Many to many relationships require a join resource.
+  - belongs_to - Declares a `belongs_to` relationship. In a relational database, the foreign key would be on the *source* table.
 
-- [actions](https://hexdocs.pm/ash/dsl-ash-resource.html#actions) - A section for declaring resource actions.
-    - [action](https://hexdocs.pm/ash/dsl-ash-resource.html#actions-action) - Declares a generic action. A combination of arguments, a return type and a run function.
-    - [create](https://hexdocs.pm/ash/dsl-ash-resource.html#actions-create) - Declares a `create` action. For calling this action, see the `Ash.Domain` documentation.
-    - [read](https://hexdocs.pm/ash/dsl-ash-resource.html#actions-read) - Declares a `read` action. For calling this action, see the `Ash.Domain` documentation.
-    - [update](https://hexdocs.pm/ash/dsl-ash-resource.html#actions-update) - Declares a `update` action. For calling this action, see the `Ash.Domain` documentation.
-    - [destroy](https://hexdocs.pm/ash/dsl-ash-resource.html#actions-destroy) - Declares a `destroy` action. For calling this action, see the `Ash.Domain` documentation.
+- actions - A section for declaring resource actions.
+    - action - Declares a generic action. A combination of arguments, a return type and a run function.
+    - create - Declares a `create` action. For calling this action, see the `Ash.Domain` documentation.
+    - read - Declares a `read` action. For calling this action, see the `Ash.Domain` documentation.
+    - update - Declares a `update` action. For calling this action, see the `Ash.Domain` documentation.
+    - destroy - Declares a `destroy` action. For calling this action, see the `Ash.Domain` documentation.
 
-- [code_interface](https://hexdocs.pm/ash/dsl-ash-resource.html#code_interface) - Functions that will be defined on the resource.
-  - [define](https://hexdocs.pm/ash/dsl-ash-resource.html#code_interface-define) - Defines a function with the corresponding name and arguments.
-  - [define_calculation](https://hexdocs.pm/ash/dsl-ash-resource.html#code_interface-define_calculation) - Defines a function that evaluates a calculation.
+- code_interface - Functions that will be defined on the resource.
+  - define - Defines a function with the corresponding name and arguments.
+  - define_calculation - Defines a function that evaluates a calculation.
 
-- [resource](https://hexdocs.pm/ash/dsl-ash-resource.html#resource) - General resource configuration.
+- resource - General resource configuration.
 
-- [identities](https://hexdocs.pm/ash/dsl-ash-resource.html#identities) - Unique identifiers for the resource.
-  - [identity](https://hexdocs.pm/ash/dsl-ash-resource.html#identities-identity) - Represents a unique constraint on the resource.
+- identities - Unique identifiers for the resource.
+  - identity - Represents a unique constraint on the resource.
 
-- [changes](https://hexdocs.pm/ash/dsl-ash-resource.html#changes) - Declare changes that occur on create/update/destroy actions
-  - [change](https://hexdocs.pm/ash/dsl-ash-resource.html#changes-change) - A change to be applied to the changeset.
+- changes - Declare changes that occur on create/update/destroy actions
+  - change - A change to be applied to the changeset.
 
-- [preparations](https://hexdocs.pm/ash/dsl-ash-resource.html#preparations) - Declare preparations for read actions.
-  - [prepare](https://hexdocs.pm/ash/dsl-ash-resource.html#preparations-prepare) - Declares a preparation for queries.
+- preparations - Declare preparations for read actions.
+  - prepare - Declares a preparation for queries.
 
-- [validations](https://hexdocs.pm/ash/dsl-ash-resource.html#validations) - Declare validations prior to performing actions against the resource.
-  - [validate](https://hexdocs.pm/ash/dsl-ash-resource.html#validations-validate) - Declares a validation for creates and updates.
+- validations - Declare validations prior to performing actions against the resource.
+  - validate - Declares a validation for creates and updates.
 
-- [aggregates](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates) - Declare named aggregates on the resource.
-  - [count](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-count) - Declares a count aggregate.
-  - [exists](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-exists) - Declares an exists aggregate.
-  - [first](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-first) - Gets first matching value.
-  - [sum](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-sum) - Sums values.
-  - [list](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-list) - Gets list of values.
-  - [max](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-max) - Gets maximum value.
-  - [min](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-min) - Gets minimum value.
-  - [avg](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-avg) - Calculates average.
-  - [custom](https://hexdocs.pm/ash/dsl-ash-resource.html#aggregates-custom) - Custom aggregate implementation.
+- aggregates - Declare named aggregates on the resource.
+  - count - Declares a count aggregate.
+  - exists - Declares an exists aggregate.
+  - first - Gets first matching value.
+  - sum - Sums values.
+  - list - Gets list of values.
+  - max - Gets maximum value.
+  - min - Gets minimum value.
+  - avg - Calculates average.
+  - custom - Custom aggregate implementation.
 
-- [calculations](https://hexdocs.pm/ash/dsl-ash-resource.html#calculations) - Declare named calculations.
-  - [calculate](https://hexdocs.pm/ash/dsl-ash-resource.html#calculations-calculate) - Declares a calculation.
+- calculations - Declare named calculations.
+  - calculate - Declares a calculation.
 
-- [multitenancy](https://hexdocs.pm/ash/dsl-ash-resource.html#multitenancy) - Configure multitenancy behavior.
+- multitenancy - Configure multitenancy behavior.
 
 ### Resources
 
@@ -117,12 +117,12 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 #### [DataLayer](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html)
 
-- [postgres](https://hexdocs.pm/ash/dsl-ash-resource.html#postgres) - Postgres data layer configuration.
-  - [custom_indexes](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-custom_indexes) - A section for configuring indexes to be created by the migration generator.
-  - [custom_statements](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-custom_statements) - A section for configuring custom statements to be added to migrations.
-  - [manage_tenant](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-manage_tenant) - Configuration for the behavior of a resource that manages a tenant.
-  - [references](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-references) - A section for configuring the references (foreign keys) in resource migrations.
-  - [check_constraints](https://hexdocs.pm/ash_postgres/dsl-ashpostgres-datalayer.html#postgres-check_constraints) - A section for configuring the check constraints for a given table.
+- postgres - Postgres data layer configuration.
+  - custom_indexes - A section for configuring indexes to be created by the migration generator.
+  - custom_statements - A section for configuring custom statements to be added to migrations.
+  - manage_tenant - Configuration for the behavior of a resource that manages a tenant.
+  - references - A section for configuring the references (foreign keys) in resource migrations.
+  - check_constraints - A section for configuring the check constraints for a given table.
 
 ### Resources
 
@@ -138,18 +138,18 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 #### [Domain](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html)
 
-- [graphql](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql) - Domain level configuration for GraphQL.
-  - [queries](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-queries) - Queries to expose for the resource.
-  - [mutations](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-mutations) - Mutations (create/update/destroy actions) to expose for the resource.
-  - [subscriptions](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-domain.html#graphql-subscriptions) - Subscriptions to expose for the resource.
+- graphql - Domain level configuration for GraphQL.
+  - queries - Queries to expose for the resource.
+  - mutations - Mutations (create/update/destroy actions) to expose for the resource.
+  - subscriptions - Subscriptions to expose for the resource.
 
 #### [Resource](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html)
 
-- [graphql](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql) - Configuration for a given resource in graphql.
-  - [queries](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-queries) - Queries (read actions) to expose for the resource.
-  - [mutations](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-mutations) - Mutations (create/update/destroy actions) to expose for the resource.
-  - [subscriptions](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-subscriptions) - Subscriptions (notifications) to expose for the resource.
-  - [managed_relationships](https://hexdocs.pm/ash_graphql/dsl-ashgraphql-resource.html#graphql-managed_relationships) - Generates input objects for `manage_relationship` arguments on resource actions.
+- graphql - Configuration for a given resource in graphql.
+  - queries - Queries (read actions) to expose for the resource.
+  - mutations - Mutations (create/update/destroy actions) to expose for the resource.
+  - subscriptions - Subscriptions (notifications) to expose for the resource.
+  - managed_relationships - Generates input objects for `manage_relationship` arguments on resource actions.
 
 ### Resources
 
@@ -163,9 +163,9 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 #### [AshJsonApi.Domain](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-domain.html)
 
-- [json_api](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-domain.html#json_api) - Global configuration for JSON:API.
-  - [open_api](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-domain.html#json_api-open_api) - OpenAPI configurations.
-  - [routes](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-domain.html#json_api-routes) - Route configurations for JSON:API endpoints.
+- json_api - Global configuration for JSON:API.
+  - open_api - OpenAPI configurations.
+  - routes - Route configurations for JSON:API endpoints.
 
 #### [AshJsonApi.Resource](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-resource.html)
 
