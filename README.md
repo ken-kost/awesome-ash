@@ -14,6 +14,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 - [AshAi](#ashai) - Structured outputs, vectorization and tool calling for your Ash application.
 - [AshPhoenix](#ashphoenix) - Utilities for using Ash with Phoenix.
 - [AshAuthentication](#ashauthentication) - Authentication extension for the Ash Framework.
+- [Reactor](#reactor) - An asynchronous, graph-based execution engine.
 - [AshAdmin](#ashadmin) - A super-admin UI for Ash Framework, built with Phoenix LiveView.
 - [AshPaperTrail](#ashpapertrail) - The extension for keeping an audit log of changes to your Ash resources.
 - [AshOban](#ashoban) - The extension for integrating Ash resources with Oban.
@@ -30,6 +31,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 - [AshMoney](#ashmoney) - The extension for working with money types in Ash.
 - [AshAppsignal](#ashappsignal) - The AppSignal APM integration for Ash Framework.
 - [AshOps](#ashops) - An Ash extension which generates mix tasks for actions.
+- [AshGeo](#ashgeo) - Tools for using Geo, Topo and PostGIS with Ash.
 
 ---
 
@@ -205,6 +207,15 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
+## [Reactor](https://hexdocs.pm/reactor/readme.html) 
+[![git-hub](git.svg)](https://github.com/ash-project/reactor) [![hex](hex.svg)](https://hex.pm/packages/reactor) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/reactor)
+
+### DSL
+
+### Resources
+
+---
+
 ## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) 
 [![git-hub](git.svg)](https://github.com/ash-project/ash_admin) [![hex](hex.svg)](https://hex.pm/packages/ash_admin) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_admin)
 
@@ -343,6 +354,15 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ## [AshOps](https://hexdocs.pm/ash_ops/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_ops) [![hex](hex.svg)](https://hex.pm/packages/ash_ops) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_ops)
+
+### DSL
+
+### Resources
+
+---
+
+## [AshGeo](https://hexdocs.pm/ash_geo/readme.html)
+[![git-hub](git.svg)](https://github.com/bcksl/ash_geo) [![hex](hex.svg)](https://hex.pm/packages/ash_geo) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_geo)
 
 ### DSL
 
