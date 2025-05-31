@@ -297,7 +297,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 ---
 
 ## [AshCsv](https://hexdocs.pm/ash_csv/readme.html)
-[![git](git.png)](https://github.com/ash-project/ash_csv) [![hex](hex.png)](https://hex.pm/packages/ash_csv) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/ash_csv)
+[![git](git.svg)](https://github.com/ash-project/ash_csv) [![hex](hex.svg)](https://hex.pm/packages/ash_csv) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_csv)
 
 ### DSL
 
@@ -306,7 +306,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 ---
 
 ## [OpentelemetryAsh](https://hexdocs.pm/opentelemetry_ash/readme.html)
-[![git](git.png)](https://github.com/ash-project/opentelemetry_ash) [![hex](hex.png)](https://hex.pm/packages/opentelemetry_ash) [![elixir-observer](observer.png)](https://elixir-observer.com/packages/opentelemetry_ash)
+[![git](git.svg)](https://github.com/ash-project/opentelemetry_ash) [![hex](hex.svg)](https://hex.pm/packages/opentelemetry_ash) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/opentelemetry_ash)
 
 ### DSL
 
