@@ -32,6 +32,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 - [AshAppsignal](#ashappsignal) - The AppSignal APM integration for Ash Framework.
 - [AshOps](#ashops) - An Ash extension which generates mix tasks for actions.
 - [AshGeo](#ashgeo) - Tools for using Geo, Topo and PostGIS with Ash.
+- [AshTrans](#ashtrans) - An Ash extension that provides translations to a resource.
 
 ---
 
@@ -363,6 +364,15 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ## [AshGeo](https://hexdocs.pm/ash_geo/readme.html)
 [![git-hub](git.svg)](https://github.com/bcksl/ash_geo) [![hex](hex.svg)](https://hex.pm/packages/ash_geo) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_geo)
+
+### DSL
+
+### Resources
+
+---
+
+## [AshTrans](https://hexdocs.pm/ash_trans/readme.html)
+[![git-hub](git.svg)](https://github.com/TimisRobert/ash_trans) [![hex](hex.svg)](https://hex.pm/packages/ash_trans) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_trans)
 
 ### DSL
 
