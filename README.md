@@ -33,6 +33,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 - [AshOps](#ashops) - An Ash extension which generates mix tasks for actions.
 - [AshGeo](#ashgeo) - Tools for using Geo, Topo and PostGIS with Ash.
 - [AshTrans](#ashtrans) - An Ash extension that provides translations to a resource.
+- [AshRateLimiter](#ashratelimiter) - Rate limiting for Ash actions.
 
 ---
 
@@ -373,6 +374,15 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ## [AshTrans](https://hexdocs.pm/ash_trans/readme.html)
 [![git-hub](git.svg)](https://github.com/TimisRobert/ash_trans) [![hex](hex.svg)](https://hex.pm/packages/ash_trans) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_trans)
+
+### DSL
+
+### Resources
+
+---
+
+## [AshRateLimiter](https://hexdocs.pm/ash_rate_limiter/readme.html)
+[![git-hub](git.svg)](https://github.com/ash-project/ash_rate_limiter) [![hex](hex.svg)](https://hex.pm/packages/ash_rate_limiter)
 
 ### DSL
 
