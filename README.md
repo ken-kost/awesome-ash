@@ -361,7 +361,7 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 ---
 
 ## [AshTrans](https://hexdocs.pm/ash_trans/readme.html)
-[![git-hub](git.svg)](https://github.com/ash-project/ash_admin) [![hex](hex.svg)](https://hex.pm/packages/ash_admin) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_admin)
+[![git-hub](git.svg)](https://github.com/TimisRobert/ash_trans) [![hex](hex.svg)](https://hex.pm/packages/ash_trans) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_trans)
 
 ### Resources
 
