@@ -37,9 +37,15 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 ---
 
-## [Ash](https://hexdocs.pm/ash/readme.html) 
+## [Ash](https://hexdocs.pm/ash/readme.html)
 
 [![git-hub](git.svg)](https://github.com/ash-project/ash) [![hex](hex.svg)](https://hex.pm/packages/ash) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash)
+
+### Resources
+
+- [Get Started](https://hexdocs.pm/ash/get-started.html)
+
+- [From Simple to Sophisticated](https://hexdocs.pm/ash/what-is-ash.html#an-example-from-simple-to-sophisticated)
 
 ### DSL
 
@@ -111,14 +117,14 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 - multitenancy - Configure multitenancy behavior.
 
+## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html)
+[![git-hub](git.svg)](https://github.com/ash-project/ash_postgres) [![hex](hex.svg)](https://hex.pm/packages/ash_postgres) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_postgres)
+
 ### Resources
 
-- [Get Started](https://hexdocs.pm/ash/get-started.html)
+- [Get Started](https://hexdocs.pm/ash_postgres/get-started-with-ash-postgres.html)
 
-- [From Simple to Sophisticated](https://hexdocs.pm/ash/what-is-ash.html#an-example-from-simple-to-sophisticated)
-
-## [AshPostgres](https://hexdocs.pm/ash_postgres/readme.html) 
-[![git-hub](git.svg)](https://github.com/ash-project/ash_postgres) [![hex](hex.svg)](https://hex.pm/packages/ash_postgres) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_postgres)
+- [Setting AshPostgres up with an existing database](https://hexdocs.pm/ash_postgres/set-up-with-existing-database.html)
 
 ### DSL
 
@@ -131,16 +137,14 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
   - references - A section for configuring the references (foreign keys) in resource migrations.
   - check_constraints - A section for configuring the check constraints for a given table.
 
-### Resources
-
-- [Get Started](https://hexdocs.pm/ash_postgres/get-started-with-ash-postgres.html)
-
-- [Setting AshPostgres up with an existing database](https://hexdocs.pm/ash_postgres/set-up-with-existing-database.html)
-
 ---
 
-## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html) 
+## [AshGraphql](https://hexdocs.pm/ash_graphql/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_graphql) [![hex](hex.svg)](https://hex.pm/packages/ash_graphql) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_graphql)
+
+### Resources
+
+- [Get Started](https://hexdocs.pm/ash_graphql/getting-started-with-graphql.html)
 
 ### DSL
 
@@ -159,223 +163,205 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
   - subscriptions - Subscriptions (notifications) to expose for the resource.
   - managed_relationships - Generates input objects for `manage_relationship` arguments on resource actions.
 
-### Resources
-
-- [Get Started](https://hexdocs.pm/ash_graphql/getting-started-with-graphql.html)
-
 ---
 
-## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html) 
+## [AshJsonApi](https://hexdocs.pm/ash_json_api/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_json_api) [![hex](hex.svg)](https://hex.pm/packages/ash_json_api) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_json_api)
-
-### DSL
-
-#### [AshJsonApi.Domain](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-domain.html)
-
-- json_api - Global configuration for JSON:API.
-  - open_api - OpenAPI configurations.
-  - routes - Route configurations for JSON:API endpoints.
-
-#### [AshJsonApi.Resource](https://hexdocs.pm/ash_json_api/dsl-ashjsonapi-resource.html)
 
 ### Resources
 
 - [Get Started](https://hexdocs.pm/ash_json_api/getting-started-with-ash-json-api.html)
 
-## [AshAi](https://hexdocs.pm/ash_ai/readme.html) 
+## [AshAi](https://hexdocs.pm/ash_ai/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_ai) [![hex](hex.svg)](https://hex.pm/packages/ash_ai) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_ai)
 
-### DSL
-
 ### Resources
 
 ---
 
-## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html) 
+## [AshPhoenix](https://hexdocs.pm/ash_phoenix/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_phoenix) [![hex](hex.svg)](https://hex.pm/packages/ash_phoenix) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_phoenix)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html) 
+## [AshAuthentication](https://hexdocs.pm/ash_authentication/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_authentication) [![hex](hex.svg)](https://hex.pm/packages/ash_authentication) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_authentication)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [Reactor](https://hexdocs.pm/reactor/readme.html) 
+## [Reactor](https://hexdocs.pm/reactor/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/reactor) [![hex](hex.svg)](https://hex.pm/packages/reactor) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/reactor)
-
-### DSL
-
 ### Resources
 
 ---
 
-## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html) 
+## [AshAdmin](https://hexdocs.pm/ash_admin/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_admin) [![hex](hex.svg)](https://hex.pm/packages/ash_admin) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_admin)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html) 
+## [AshPaperTrail](https://hexdocs.pm/ash_paper_trail/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_paper_trail) [![hex](hex.svg)](https://hex.pm/packages/ash_paper_trail) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_paper_trail)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshOban](https://hexdocs.pm/ash_oban/readme.html) 
+## [AshOban](https://hexdocs.pm/ash_oban/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_oban) [![hex](hex.svg)](https://hex.pm/packages/ash_oban) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_oban)
-
-### DSL
 
 ### Resources
 - [Sending Emails with Ash Framework](https://www.zachdaniel.dev/p/sending-emails-with-ash)
 
+### DSL
+
 ---
 
-## [AshEvents](https://hexdocs.pm/ash_events/readme.html) 
+## [AshEvents](https://hexdocs.pm/ash_events/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_events) [![hex](hex.svg)](https://hex.pm/packages/ash_events) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_events)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html) 
+## [AshStateMachine](https://hexdocs.pm/ash_state_machine/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_state_machine) [![hex](hex.svg)](https://hex.pm/packages/ash_state_machine) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_state_machine)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshArchival](https://hexdocs.pm/ash_archival/readme.html) 
+## [AshArchival](https://hexdocs.pm/ash_archival/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_archival) [![hex](hex.svg)](https://hex.pm/packages/ash_archival) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_archival)
-
 ### DSL
 
 ### Resources
 
+### DSL
+
 ---
 
-## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html) 
+## [AshCloak](https://hexdocs.pm/ash_cloak/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_cloak) [![hex](hex.svg)](https://hex.pm/packages/ash_cloak) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_cloak)
 
-### DSL
-
 ### Resources
 
 ---
 
-## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html) 
+## [AshSqlite](https://hexdocs.pm/ash_sqlite/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_sqlite) [![hex](hex.svg)](https://hex.pm/packages/ash_sqlite) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_sqlite)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshSync](https://hexdocs.pm/ash_sync/readme.html) 
+## [AshSync](https://hexdocs.pm/ash_sync/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_sync) [![hex](hex.svg)](https://hex.pm/packages/ash_sync)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
-## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html) 
+## [AshDoubleEntry](https://hexdocs.pm/ash_double_entry/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_double_entry) [![hex](hex.svg)](https://hex.pm/packages/ash_double_entry) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_double_entry)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshCsv](https://hexdocs.pm/ash_csv/readme.html)
 [![git](git.svg)](https://github.com/ash-project/ash_csv) [![hex](hex.svg)](https://hex.pm/packages/ash_csv) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_csv)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [OpentelemetryAsh](https://hexdocs.pm/opentelemetry_ash/readme.html)
 [![git](git.svg)](https://github.com/ash-project/opentelemetry_ash) [![hex](hex.svg)](https://hex.pm/packages/opentelemetry_ash) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/opentelemetry_ash)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshBlog](https://hexdocs.pm/ash_blog/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_blog) [![hex](hex.svg)](https://hex.pm/packages/ash_blog)
 
+### Resources
+
 ### DSL
 
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshMoney](https://hexdocs.pm/ash_money/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_money) [![hex](hex.svg)](https://hex.pm/packages/ash_money) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_money)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshAppsignal](https://hexdocs.pm/ash_appsignal/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_appsignal) [![hex](hex.svg)](https://hex.pm/packages/ash_appsignal) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_appsignal)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshOps](https://hexdocs.pm/ash_ops/readme.html)
 [![git-hub](git.svg)](https://github.com/ash-project/ash_ops) [![hex](hex.svg)](https://hex.pm/packages/ash_ops) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_ops)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshGeo](https://hexdocs.pm/ash_geo/readme.html)
 [![git-hub](git.svg)](https://github.com/bcksl/ash_geo) [![hex](hex.svg)](https://hex.pm/packages/ash_geo) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_geo)
 
-### DSL
-
 ### Resources
+
+### DSL
 
 ---
 
 ## [AshTrans](https://hexdocs.pm/ash_trans/readme.html)
-[![git-hub](git.svg)](https://github.com/TimisRobert/ash_trans) [![hex](hex.svg)](https://hex.pm/packages/ash_trans) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_trans)
-
-### DSL
+[![git-hub](git.svg)](https://github.com/ash-project/ash_admin) [![hex](hex.svg)](https://hex.pm/packages/ash_admin) [![elixir-observer](eob.svg)](https://elixir-observer.com/packages/ash_admin)
 
 ### Resources
 
