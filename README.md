@@ -47,6 +47,10 @@ The Elixir backend framework for unparalleled productivity. Declarative tools th
 
 - [From Simple to Sophisticated](https://hexdocs.pm/ash/what-is-ash.html#an-example-from-simple-to-sophisticated)
 
+- [Ash Framework For Phoenix Developpers](https://medium.com/@lambert.kamaro/ash-framework-for-phoenix-developpers-c29b0a147552)
+
+- [How To Build a SaaS Using Phoenix and Ash Framework](https://medium.com/@lambert.kamaro/how-to-build-a-saas-using-phoenix-and-ash-framework-1-4-69f3a622470d)
+
 ### DSL
 
 #### [Domain](https://hexdocs.pm/ash/dsl-ash-domain.html)
